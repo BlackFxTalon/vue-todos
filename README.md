@@ -1,6 +1,8 @@
 # vue-todos
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a vue.js todo web-application
+
+The goal is to practice skills in vue.js basics by creating a vue.js todo web-application from scratch
 
 ## Recommended IDE Setup
 
