@@ -28,7 +28,7 @@ const emit = defineEmits(['create-todo']);
 
 <template>
     <div class="input-wrap" :class="{'input-err': todoState.invalid}">
-      <input type="text" v-model="todoState.todo">
+      <input type="text" v-model="todoState.todo" @keyup.enter="createTodo()">
       <TodoButton @click="createTodo()"/>
     </div>
     <p class="error-message" v-show="todoState.invalid">{{ todoState.errorMessage }}</p>
